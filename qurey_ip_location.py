@@ -18,11 +18,6 @@ def qurey_ip(ip):
     print ip,d('p').eq(1).html().replace('code','').replace('<>','').replace('</>',''),d('p').eq(2).html(),d('p').eq(3).html()
 
 
-
-
-
-
-
 def main():
     ip = '117.35.134.250'
     qurey_ip(ip)
